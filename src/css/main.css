@@ -6,9 +6,9 @@ layer(base);
 
 @theme {
     --font-body: var(--theme-font-body, monospace);
-    --background-color-main: var(--theme-dark);
+    --background-color-main: theme(' colors.background');
     --background-color-inverse: var(--theme-on-dark);
-    --text-color-main: var(--theme-on-dark);
+    --text-color-main: theme(' colors.text');
     --text-color-inverse: var(--theme-dark);
     --container-8xl: 96rem;
     --spacing-icon: 1em;
